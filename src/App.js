@@ -1,12 +1,7 @@
 import React from 'react';
-import RailwayMap from './components/Map'
+import {MainPage} from './components/MainPage/MainPage'
 
-class App extends React.Component {
-  render() {
-    return (
-        <RailwayMap/>
-    );
-  }
-}
+export const App = () => {
+    return <MainPage/>
+};
 
-export default App;
